@@ -1,0 +1,695 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <!-- 首先，先设置文档编码，记住这个放最前面（特别注意别放title后面），以免后面代码出现乱码。 -->
+  <meta charset="utf-8">
+  <!-- 设置IE使用最新版本来渲染 -->
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <!-- 标题 -->
+  <title>bootstrap项目</title>
+  <!-- 描述，便于SEO -->
+  <meta name="description" content="">
+  <!-- viewport指定移动端不对网页进行缩放 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- HTML5的离线存储了 -->
+  <link rel="manifest" href="site.webmanifest">
+  <!-- 苹果safari浏览器上可以使用添加到主屏按钮将网站添加到主屏幕上，方便用户以后访问 -->
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+  <!-- 确保所有浏览器都可以使用 HTML 5 元素 -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <!-- bootstrap样式 -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- 文字动画样式 -->
+  <link rel="stylesheet" href="css/animate.min.css">
+  <!--字体样式-->
+  <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+  <!-- 项目样式 -->
+  <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+  <!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+  <!-- Add your site or application content here -->
+  <!-- 头部开始 -->
+  <header  class="navbar-fixed-top">
+        <div class="guide">
+          <nav class="navbar navbar-default  ">
+             <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mynavbar" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="logo" href="#">
+                <i class="pic"><img  src="img/logo.png" alt=""></i>
+                <i class="name">YD·前端技术</i>
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="mynavbar">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#index">首页</a></li>
+                <li><a href="#about">关于</a></li>
+                <li><a href="#service">技能</a></li>
+                <li><a href="#portfolio">项目</a></li>
+                <li><a href="#contact">联系我</a></li>
+              </ul>
+            </div>
+             </div>
+          </nav>
+    </div>
+  </header>
+  <!--首页-->
+  <section id="index" class="index">
+    <div class="index-caption container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <h3 class="text-center animated swing">个人简介</h3>
+          <p class="text-left animated fadeInUp">深度互联网开发人员，对互联网保持高度的敏感性和关注度，能独立承担APP和WEB项目的开发工作，自学能力强，对新技术有极强的学习欲望。</p>
+          <h1 class="text-center animated slideInLeft"><a class="scrollA" href="#about">详细技术项目向下查看</a></h1>
+        </div>
+      </div>
+    </div>
+  </section>a
+  <!--关于-->
+  <!--class="object-non-visible" data-animation-effect="fadeIn" 绑定自定义的属性data-*，通过js来替换-->
+  <section id="about" class="object-non-visiable" data-animation-effect="fadeIn">
+    <div class="container">
+      <h1 class="title text-center animated shake">我的 <span>经历</span></h1>
+      <div class="space"></div>
+      <h2>学校经历</h2> <br>
+      <div class="row col-md-5 ">
+        <div >
+          <p>
+            <strong>毕业学校:</strong> <br><br>
+            2013.09-2017.06，就读于四川省成都市成都大学，电子信息工程（本科）<br> <br>
+            <strong>主修课程：</strong><br><br>
+            通信原理，嵌入式技术，java 语言，eda 技术，信号与系统，计算机网络 <br><br>
+            <strong>英语水平：</strong><br><br>
+            CET-4
+          </p>
+        </div>
+        <h2>获奖情况</h2><br>
+        <div >
+          <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingOne">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    省级，国家级奖项
+                  </a>
+                </h4>
+              </div>
+              <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                <div class="panel-body">
+                  第七届北斗杯全国青少年科技创新大赛国家一等奖 <br>
+                  第六届华为杯中国大学生智能设计竞赛国家三等奖 <br>
+                  第七届服务外包创新创业大赛国家二等奖 <br>
+                  2016TI杯全国大学生物联网设计竞赛国家三等奖 <br>
+                  第二届四川省互联网+大赛银奖 <br>
+                </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingTwo">
+                <h4 class="panel-title">
+                  <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    国家专利
+                  </a>
+                </h4>
+              </div>
+              <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                <div class="panel-body">
+                  多功能无人机吊舱设计国家专利 <br>
+                  无人机无线充电基站国家专利 <br>
+                </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingThree">
+                <h4 class="panel-title">
+                  <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    计算机软件著作权
+                  </a>
+                </h4>
+              </div>
+              <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                <div class="panel-body">
+                 无人机系统管理平台移动端代码著作权 <br>
+                 无人机系统管理平台web端代码著作权
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row col-md-5 col-md-offset-2">
+        <div >
+          <img src="img/section-image-3.jpg" alt="">
+          <div class="space"></div>
+        </div><br>
+        <h2>工作经历</h2><br>
+        <div >
+           <strong>河南小楼网络科技公司</strong> (2018.03-2018.05	)
+          <p> 主要是使用html+css+javascript Dom操作,jQuery,Vue等前端WEB技术进行网站的开发与制造；<br>
+            	1.负责公司爱吃范儿餐饮系统的页面设计，点餐页面交互逻辑设计。<br>
+              2.负责公司校园项目的Vue移动端总体设计 <br>
+          </p>
+          <strong>成都大成科技有限公司</strong> (2017.03-2017.12	)
+          <p>使用mvp架构，RXJava,Dagger2,OKHttp,Glide等主流技术进行Android客户端开发。 <br>
+             1.负责无人机项目管理系统平台的app客户端整体框架设计和功能实现。 <br>
+             2.负责使用html/css/js,jQuery,ajax等前端WEB技术进行网站的开发与制造，负责无人机项目管理系统平台的web端的页面设计。<br>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- 技能掌握 -->
+  <section id="service" class="service">
+    <div class="container object-non-visible" data-animation-effect="fadeIn">
+      <h1 class="title text-center ">技能掌握</h1>
+      <div class="space"></div>
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="media">
+            <div class="media-left">
+              <i class="fa fa-cog fa-spin fa-2x"></i>
+            </div>
+            <div class="media-body text-left">
+              <h4 class="media-heading">HTML</h4>
+              <p>熟练掌握html,html5.熟悉最新的web标准规范和新增标签</p>
+            </div>
+          </div>
+          <div class="media">
+            <div class="media-left">
+              <i class="fa fa-cog fa-spin fa-2x"></i>
+            </div>
+            <div class="media-body text-left">
+              <h4 class="media-heading">CSS3 </h4>
+              <p>熟悉新增的css样式标签，熟练运用css动画做出各种效果</p>
+            </div>
+          </div>
+          <div class="media">
+            <div class="media-left">
+              <i class="fa fa-cog fa-spin fa-2x"></i>
+            </div>
+            <div class="media-body text-left">
+              <h4 class="media-heading">JAVASCRIPT</h4>
+              <p>熟悉原生JAVASCRIPT语法，了解闭包原型链，熟悉es6,es7最新标准</p>
+            </div>
+          </div>
+          <div class="media">
+            <div class="media-left">
+              <i class="fa fa-cog fa-spin fa-2x"></i>
+            </div>
+            <div class="media-body text-left">
+              <h4 class="media-heading">VUE.JS</h4>
+              <p>熟练掌握vue.js的使用，熟悉vue生命周期函数，路由的定义使用，vuex以及vuex组件化开发</p>
+            </div>
+          </div>
+          <div class="media">
+            <div class="media-left">
+              <i class="fa fa-cog fa-spin fa-2x"></i>
+            </div>
+            <div class="media-body text-left">
+              <h4 class="media-heading">微信小程序</h4>
+              <p>熟练掌握微信小程序开发，熟悉模板化构建组件，微信请求的封装，微信支付api等小程序原生开发技术，掌握mpvue框架，使用vue+小程序api开发小程序
+            </div>
+          </div>
+          <div class="media">
+            <div class="media-left">
+              <i class="fa fa-cog fa-spin fa-2x"></i>
+            </div>
+            <div class="media-body text-left">
+              <h4 class="media-heading">jQuery </h4>
+              <p>熟练掌握jQuery的使用，熟悉jQuery的基本操作语法，dom节点操作，事件定义使用，动画效果的添加和ajax的使用</p>
+            </div>
+          </div>
+          <div class="media">
+            <div class="media-left">
+              <i class="fa fa-cog fa-spin fa-2x"></i>
+            </div>
+            <div class="media-body text-left">
+              <h4 class="media-heading">Bootstrap</h4>
+              <p>熟悉Bootstrap的使用，熟悉栅格系统，面包屑导航，模态框，巨幕等组件的使用以及各种插件使用</p>
+            </div>
+          </div>
+          <div class="media">
+            <div class="media-left">
+              <i class="fa fa-cog fa-spin fa-2x"></i>
+            </div>
+            <div class="media-body text-left">
+              <h4 class="media-heading">Android</h4>
+              <p>4年原生安卓app开发，熟练掌握原生app开发。熟悉mvp模式，熟练使用Retrofit，RXAndroid,OKHttp,Glide等流行框架机型开发。熟悉组件化，模块化以及热更新</p>
+            </div>
+          </div>
+        </div>
+        <div class="space visible-xs"></div>
+        <div class="col-sm-6">
+          <div class="row">
+            <div class="col-xs-5 col-xs-offset-1">
+              <i >
+                <img src="./img/H5.png" alt="">
+              </i>
+              <i >
+                <img src="./img/css3.png" alt="">
+              </i>
+              <i >
+                <img src="./img/js.png" alt="">
+              </i>
+              <i >
+                <img src="./img/jquery.png" alt="">
+              </i>
+            </div>
+            <div class="space visible-xs"></div>
+            <div class="col-xs-5 col-xs-offset-1">
+              <i >
+                <img src="./img/vue.png" alt="">
+              </i>
+              <i >
+                <img src="./img/wechat.png" alt="">
+              </i>
+              <i >
+                <img src="./img/android.png" alt="">
+              </i>
+              <i >
+                <img src="./img/Bootstrap.png" alt="">
+              </i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- 图集开始-------------------------------------------------------------- -->
+  <section id="portfolio" >
+    <div class="container">
+      <h1 class="text-center">项目展示</h1>
+      <p class="text-center">包含web端网页，VUE移动端，原生安卓APP，微信小程序几类项目
+        <br/>请点击对应项目查看详情</p>
+      <div class="space"></div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="filter text-center">
+            <ul class="nav nav-pills">
+              <li class="active"><a href="" data-filter="*">所有</a></li>
+              <li><a href="" data-filter=".web-design">网站设计</a></li>
+              <li><a href="" data-filter=".app-develop">VUE应用开发</a></li>
+              <li><a href="" data-filter=".android-develop">安卓应用开发</a></li>
+              <li><a href="" data-filter=".site-build">小程序</a></li>
+            </ul>
+          </div>
+          <div class="space"></div>
+          <div class="isotope-container row">
+            <div class="col-sm-6 col-md-3 web-design">
+              <div>
+                <div class="overlay-container">
+                  <img src="img/portfolio-1.jpg" alt="">
+                  <a href="" class="overlay" data-toggle="modal" data-target="#project-1">
+                    <i class="fa fa-search-plus"></i>
+                    <span>H5活动页</span>
+                  </a>
+                </div>
+
+                <a href="#" class="btn btn-default btn-block" data-toggle="modal" data-target="#project-1">仿百度外卖 </a>
+              </div>
+              <div>
+                <div class="modal fade" id="project-1">
+                  <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title">Project Title</h4>
+                      </div>
+                      <div class="modal-body">
+                        <h3>Project Description</h3>
+                        <div class="row">
+                          <div class="col-md-6">
+                            <p>xxxx...</p>
+                          </div>
+                          <div class="col-md-6">
+                            <img src="img/portfolio-1.jpg" alt="">
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                    <!-- /.modal-content -->
+                  </div>
+                  <!-- /.modal-dialog -->
+                </div>
+                <!-- /.modal -->
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3 app-develop">
+              <div>
+                <div class="overlay-container">
+                  <img src="img/musci_pic.png" alt="">
+                  <a href="" class="overlay" data-toggle="modal" data-target="#project-2">
+                    <i class="fa fa-search-plus"></i>
+                    <span>VUE应用</span>
+                  </a>
+                </div>
+
+                <a href="#" class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2">火山音乐</a>
+              </div>
+              <div>
+                <div class="modal fade" id="project-2">
+                  <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title">火山音乐</h4>
+                      </div>
+                      <div class="modal-body">
+                        <h3>扫描二维码下载体验</h3>
+                        <div class="row">
+                          <div class="col-md-8">
+                            <p><strong>项目简介：</strong>该项目是一款音乐播放软件，包含推荐，歌手，排行，搜索四个模块，实现歌曲搜索播放。<br><br>
+
+                              <strong>功能实现：</strong>基于vue.js开发，实现推荐列表，歌手列表，排行列表，点击具体条目可进入歌单或歌手详情列表，<br>
+                              支持上拉加载更多，输入搜索词，可实现多条搜索结果展示，支持搜索历史快捷搜索。播放音乐支持随机，单曲循环，顺序播放模式切换，播放界面左滑，显示滚动歌词。<br><br>
+
+                              <strong>技术实现：</strong>项目使用es6进行编写，框架采用vue2.0,使用vuex实现数据状态管理，vue-router实现前端路由，<br>
+                              采用axios，jsonp进行网络请求，better-scroll实现列表滚动，构建工具为webpack 3.1`
+                            </p>
+                          </div>
+                          <div class="col-md-4">
+                            <img src="img/QRCode_VUE_MUSIC.png" alt="">
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                    <!-- /.modal-content -->
+                  </div>
+                  <!-- /.modal-dialog -->
+                </div>
+                <!-- /.modal -->
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3 app-develop">
+              <div>
+                <div class="overlay-container">
+                  <img src="img/portfolio-2.jpg" alt="">
+                  <a href="" class="overlay" data-toggle="modal" data-target="#project-5">
+                    <i class="fa fa-search-plus"></i>
+                    <span>VUE应用</span>
+                  </a>
+                </div>
+
+                <a href="#" class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2">火山壁纸 </a>
+              </div>
+              <div>
+                <div class="modal fade" id="project-5">
+                  <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title">Project Title</h4>
+                      </div>
+                      <div class="modal-body">
+                        <h3>Project Description</h3>
+                        <div class="row">
+                          <div class="col-md-6">
+                            <p>xxxx...</p>
+                          </div>
+                          <div class="col-md-6">
+                            <img src="img/portfolio-2.jpg" alt="">
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                    <!-- /.modal-content -->
+                  </div>
+                  <!-- /.modal-dialog -->
+                </div>
+                <!-- /.modal -->
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3 web-design">
+              <div>
+                <div class="overlay-container">
+                  <img src="img/portfolio-3.jpg" alt="">
+                  <a href="" class="overlay" data-toggle="modal" data-target="#project-3">
+                    <i class="fa fa-search-plus"></i>
+                    <span>网站设计</span>
+                  </a>
+                </div>
+
+                <a href="#" class="btn btn-default btn-block" data-toggle="modal" data-target="#project-3">网站设计 </a>
+              </div>
+              <div>
+                <div class="modal fade" id="project-3">
+                  <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title">Project Title</h4>
+                      </div>
+                      <div class="modal-body">
+                        <h3>Project Description</h3>
+                        <div class="row">
+                          <div class="col-md-6">
+                            <p>xxxx...</p>
+                          </div>
+                          <div class="col-md-6">
+                            <img src="img/portfolio-3.jpg" alt="">
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                    <!-- /.modal-content -->
+                  </div>
+                  <!-- /.modal-dialog -->
+                </div>
+                <!-- /.modal -->
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3 android-develop">
+              <div>
+                <div class="overlay-container">
+                  <img src="img/portfolio-4.jpg" alt="">
+                  <a href="" class="overlay" data-toggle="modal" data-target="#project-7">
+                    <i class="fa fa-search-plus"></i>
+                    <span>安卓APP</span>
+                  </a>
+                </div>
+
+                <a href="#" class="btn btn-default btn-block" data-toggle="modal" data-target="#project-4">知电影</a>
+              </div>
+              <div>
+                <div class="modal fade" id="project-7">
+                  <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title">Project Title</h4>
+                      </div>
+                      <div class="modal-body">
+                        <h3>Project Description</h3>
+                        <div class="row">
+                          <div class="col-md-6">
+                            <p>xxxx...</p>
+                          </div>
+                          <div class="col-md-6">
+                            <img src="img/portfolio-4.jpg" alt="">
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                    <!-- /.modal-content -->
+                  </div>
+                  <!-- /.modal-dialog -->
+                </div>
+                <!-- /.modal -->
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3 site-build">
+              <div>
+                <div class="overlay-container">
+                  <img src="img/portfolio-4.jpg" alt="">
+                  <a href="" class="overlay" data-toggle="modal" data-target="#project-4">
+                    <i class="fa fa-search-plus"></i>
+                    <span>小程序</span>
+                  </a>
+                </div>
+
+                <a href="#" class="btn btn-default btn-block" data-toggle="modal" data-target="#project-4">站点构建 </a>
+              </div>
+              <div>
+                <div class="modal fade" id="project-4">
+                  <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title">Project Title</h4>
+                      </div>
+                      <div class="modal-body">
+                        <h3>Project Description</h3>
+                        <div class="row">
+                          <div class="col-md-6">
+                            <p>xxxx...</p>
+                          </div>
+                          <div class="col-md-6">
+                            <img src="img/portfolio-4.jpg" alt="">
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                    <!-- /.modal-content -->
+                  </div>
+                  <!-- /.modal-dialog -->
+                </div>
+                <!-- /.modal -->
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3 site-build">
+              <div>
+                <div class="overlay-container">
+                  <img src="img/portfolio-4.jpg" alt="">
+                  <a href="" class="overlay" data-toggle="modal" data-target="#project-6">
+                    <i class="fa fa-search-plus"></i>
+                    <span>小程序</span>
+                  </a>
+                </div>
+
+                <a href="#" class="btn btn-default btn-block" data-toggle="modal" data-target="#project-4">站点构建 </a>
+              </div>
+              <div>
+                <div class="modal fade" id="project-6">
+                  <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title">Project Title</h4>
+                      </div>
+                      <div class="modal-body">
+                        <h3>Project Description</h3>
+                        <div class="row">
+                          <div class="col-md-6">
+                            <p>xxxx...</p>
+                          </div>
+                          <div class="col-md-6">
+                            <img src="img/portfolio-4.jpg" alt="">
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                    <!-- /.modal-content -->
+                  </div>
+                  <!-- /.modal-dialog -->
+                </div>
+                <!-- /.modal -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- 图集结束-------------------------------------------------------------- -->
+  <!-- 联系我们开始-------------------------------------------------------------- -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h1 class="text-center">联系我</h1>
+      <div class="space"></div>
+      <div class="row">
+        <div class="col-md-6">
+          <p>
+            2年web前端开发经验，4年原生Android开发经验，熟练掌握VUE框架，能使用VUE开发web端页面和移动端app。熟悉微信小程序开发</p>
+          <ul class="list-icons">
+            <li><i class="fa fa-map-marker pr-10"></i> 安阳市殷都区铁西路</li>
+            <li><i class="fa fa-phone pr-10"></i> 0372-3936036</li>
+            <li><i class="fa fa-fax pr-10"></i> 18637280068 </li>
+            <li><i class="fa fa-envelope-o pr-10"></i> aya00000431@163.com</li>
+          </ul>
+          <ul class="links">
+            <li class="facebook"><a target="_blank" href="https://www.facebook.com/pages/HtmlCoder/714570988650168"><i class="fa fa-facebook"></i></a></li>
+            <li class="twitter"><a target="_blank" href="https://twitter.com/HtmlcoderMe"><i class="fa fa-twitter"></i></a></li>
+            <li class="googleplus"><a target="_blank" href="http://plus.google.com"><i class="fa fa-google-plus"></i></a></li>
+            <li class="skype"><a target="_blank" href="http://www.skype.com"><i class="fa fa-skype"></i></a></li>
+            <li class="linkedin"><a target="_blank" href="http://www.linkedin.com"><i class="fa fa-linkedin"></i></a></li>
+            <li class="youtube"><a target="_blank" href="http://www.youtube.com"><i class="fa fa-youtube"></i></a></li>
+            <li class="flickr"><a target="_blank" href="http://www.flickr.com"><i class="fa fa-flickr"></i></a></li>
+            <li class="pinterest"><a target="_blank" href="http://www.pinterest.com"><i class="fa fa-pinterest"></i></a></li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <form action="">
+            <div class="form-group  has-feedback">
+              <label class="control-label sr-only" for="Name">Name</label>
+              <input type="text" class="form-control" placeholder="Name" id="Name">
+              <span class="fa fa-user form-control-feedback" aria-hidden="true"></span>
+            </div>
+
+            <div class="form-group  has-feedback">
+              <label class="control-label sr-only" for="Email">Email</label>
+              <input type="text" class="form-control" placeholder="Enter email" id="Email">
+              <span class="fa fa-envelope-o form-control-feedback" aria-hidden="true"></span>
+            </div>
+
+            <div class="form-group  has-feedback">
+              <label class="control-label sr-only" for="Message">Message</label>
+              <textarea class="form-control" rows="8" placeholder="Message"></textarea>
+              <span class="fa fa-pencil form-control-feedback" aria-hidden="true"></span>
+            </div>
+            <input type="text" class="btn btn-default" value="Send">
+          </form>
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- 联系我们结束-------------------------------------------------------------- -->
+
+
+
+
+  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+  <!-- 动态背景图片脚本  -->
+  <script src="js/jquery.backstretch.js"></script>
+  <script src="js/isotope.pkgd.min.js"></script>
+  <!-- bootstrap脚本  -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

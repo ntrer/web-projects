@@ -290,7 +290,10 @@ textarea {
 
 html, body {
   height: 100%;
+  width: 100%;
 }
+
+::-webkit-scrollbar {display:none}
 
 body {
   font-size: 15px;

@@ -558,10 +558,19 @@ img {
   position: relative;
 }
 
-/*.overlay-container img{*/
-  /*width: 165px;*/
-  /*height: 175px;*/
-/*}*/
+.overlay-container img ,a {
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.overlay-container :hover {
+  transform: scale(1.2);
+}
+
+.overlay-container img{
+  width: 165px;
+  height: 175px;
+}
 
 .overlay {
   position: absolute;

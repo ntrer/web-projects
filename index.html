@@ -37,6 +37,8 @@
 
   <!-- Add your site or application content here -->
   <!-- 头部开始 -->
+  <div class="cover">
+  </div>
   <header  class="navbar-fixed-top">
         <div class="guide">
           <nav class="navbar navbar-default  ">
@@ -756,6 +758,14 @@
       live: true
     });
     wow.init();
+    document.onreadystatechange = subSomething;//当页面加载状态改变的时候执行这个方法.
+    function subSomething()
+    {
+      if(document.readyState === "complete") //当页面加载状态
+      {
+         $('.cover').hide()
+      }
+    }
   </script>
 </body>
 

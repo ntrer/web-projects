@@ -303,6 +303,16 @@ body {
   position: relative;
 }
 
+.cover{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: skyblue;
+  opacity: 1;
+  z-index: 999;
+}
+
+
 a:hover {
   text-decoration: none;
 }

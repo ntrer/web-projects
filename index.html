@@ -38,6 +38,7 @@
   <!-- Add your site or application content here -->
   <!-- 头部开始 -->
   <div class="cover">
+    <img src="http://smashinghub.com/wp-content/uploads/2014/08/cool-loading-animated-gif-3.gif" alt="">
   </div>
   <header  class="navbar-fixed-top">
         <div class="guide">
@@ -763,7 +764,7 @@
     {
       if(document.readyState === "complete") //当页面加载状态
       {
-         $('.cover').hide()
+         $('.cover').animate({opacity:0},1000)
       }
     }
   </script>

@@ -562,6 +562,9 @@ img {
   width: 165px;
   height: 175px;
 }
+.overlay-container .btn{
+  width: 165px;
+}
 
 .overlay {
   position: absolute;

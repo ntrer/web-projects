@@ -545,11 +545,11 @@ img {
 /* 图集样式开始 =================================================================*/
 
 #portfolio{
+  height: 1200px;
   position: relative;
   background: url("../img/index-bg05.png") no-repeat;
   background-size: 100% 100%;
   overflow: auto;
-  height: 1200px;
 }
 
 

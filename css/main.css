@@ -558,13 +558,10 @@ img {
   position: relative;
 }
 
-.overlay-container img{
-  width: 165px;
-  height: 175px;
-}
-.overlay-container .name{
-  width: 165px;
-}
+/*.overlay-container img{*/
+  /*width: 165px;*/
+  /*height: 175px;*/
+/*}*/
 
 .overlay {
   position: absolute;

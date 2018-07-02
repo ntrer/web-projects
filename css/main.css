@@ -546,6 +546,7 @@ img {
 
 #portfolio{
   position: relative;
+  height: 1200px;
   background: url("../img/index-bg05.png") no-repeat;
   background-size: 100% 100%;
   overflow: auto;
@@ -582,7 +583,7 @@ img {
   transform: scale(1.2);
 }
 
-.overlay-container img{
+.overlay-container img,.link{
   width: 165px;
   height: 175px;
 }

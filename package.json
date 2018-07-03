@@ -1,0 +1,23 @@
+{
+  "name": "web-projects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ntrer/web-projects.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ntrer/web-projects/issues"
+  },
+  "homepage": "https://github.com/ntrer/web-projects#readme",
+  "proxy": "https://m2.qiushibaike.com"
+}

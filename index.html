@@ -642,7 +642,7 @@
             <div class="col-sm-6 col-md-3 web-design " >
               <div>
                 <div class="overlay-container">
-                  <a href="https://m2.qiushibaike.com/article/list/video?page=1" class="link">
+                  <a href="https://ntrer.github.io/baiduH5" class="link">
                   <img src="img/rider1_.png" alt="">
                   </a>
                   <!--<a href="https://ntrer.github.io/baiduH5" class="overlay">-->
@@ -774,8 +774,22 @@
       if(document.readyState === "complete") //当页面加载状态
       {
          $('.cover').animate({opacity:0},1000)
+
+        $.ajax({
+          type: "GET",
+          url: "https://m2.qiushibaike.com/article/list/video?page=1",
+          success: function(data){
+            console.log(data)
+          }
+        });
+
+
       }
     }
+
+
+
+
   </script>
 </body>
 
